@@ -1,0 +1,144 @@
+#workskin .journalapp {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#workskin .djournalbar {
+  background-color: #959AE3;
+  color: #36393F;
+  border-color: #959AE3;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 75%;
+  padding: 5px;
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: clip;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#workskin .djournalbar::before {
+  content: 'Journal.me';
+  display: inline-block;
+  position: relative;
+  float: left;
+  font-weight: bold;
+  padding: 0 3px;
+  width: 85%;
+}
+
+#workskin .djournalbar::after {
+  content: '≡';
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  padding-right: 5px;
+  float: right;
+  color: #36393F;
+  cursor: pointer;
+}
+
+#workskin .drequiredmeta {
+  border-color: #cfcfcf;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 75%;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #36393F;
+}
+
+#workskin .doptionalmeta {
+  border-color: #cfcfcf;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 75%;
+  padding: 5px;
+  color: #999999;
+  background-color: #36393F;
+}
+
+#workskin .dentry {
+  width: 75%;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: justify;
+  color: #ffffff;
+  background-color: #36393F;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  display: block;
+  height: 300px;
+  border-color: #cfcfcf;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#workskin .dentry p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#workskin .dentry::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#workskin .dentry::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+
+#workskin .dentry::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+#workskin .dentry::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  border: 2px solid #36393F;
+}
+
+#workskin .dentry::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #36393F;
+}
+
+#workskin .dactionbar {
+  border-color: #cfcfcf;
+  background-color: #202225;
+  color: #999999;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 75%;
+  padding: 5px;
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: clip;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#workskin .dactionbar::after {
+  content: '✐  ↑  ␡';
+  display: inline-block;
+  position: relative;
+  float: right;
+  padding: 0 3px;
+  cursor: pointer;
+}
