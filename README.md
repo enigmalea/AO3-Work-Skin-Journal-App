@@ -18,7 +18,7 @@ A work skin for AO3 to create a fake journaling app for fanfics using css and ht
 
   1. Make sure your fic is on html mode.
 
-  ![mode preview](../assets/html.png?raw=true)
+  ![html mode preview](../assets/htmlmode.png?raw=true)
 
   2. Copy and paste the contents of the .html for the mode you want to use into the body of your fic where you want the app to appear.
 
