@@ -20,7 +20,7 @@ A work skin for AO3 to create a fake journaling app for fanfics using css and ht
 
   ![html mode preview](../assets/htmlmode.png?raw=true)
 
-  2. Copy and paste the contents of the .html for the mode you want to use into the body of your fic where you want the app to appear.
+  2. Copy and paste the contents of the .html file for the mode you want to use into the body of your fic where you want the app to appear.
 
 3. Profit.
 
@@ -35,14 +35,16 @@ A work skin for AO3 to create a fake journaling app for fanfics using css and ht
 
 - The "(optional)" description in the tags and mood are intended to be used for characters who wouldn't complete that information. Add whatever tags and moods you think the character would use.
 
-- You can use emoji in any and all fields! In paragraphs, in the mood section, or even in entries.
+- You can use emoji in any and all fields! In tags, in the mood section, or even in entries. Just insert them as you would normall.
 
 - I highly recommend underlining "tags" in the tags section using `<u> </u>`, i.e.
 ```html
 <p class="optionalmeta"><b>tags:</b> <u>tag 1</u>, <u>tag 2/u>, <u>tag 3</u></p>
 ```
+This makes them look like they are clickable within the "app" without needing any fancy coding.
 
   ![style preview](../assets/style.png?raw=true)
+
 
 
 ## Rules for Use
