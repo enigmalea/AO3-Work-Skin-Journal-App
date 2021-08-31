@@ -6,9 +6,9 @@
 }
 
 #workskin .djournalbar {
-  background-color: #959AE3;
-  color: #36393F;
-  border-color: #959AE3;
+  background-color: #5F6290;
+  color: #202225;
+  border-color: #5F6290;
   border-style: solid;
   border-width: 1px;
   margin-top: 0;
@@ -39,12 +39,12 @@
   font-weight: bold;
   padding-right: 5px;
   float: right;
-  color: #36393F;
+  color: #202225;
   cursor: pointer;
 }
 
 #workskin .drequiredmeta {
-  border-color: #cfcfcf;
+  border-color: #202225;
   border-style: solid;
   border-width: 1px;
   border-bottom: none;
@@ -57,7 +57,7 @@
 }
 
 #workskin .doptionalmeta {
-  border-color: #cfcfcf;
+  border-color: #202225;
   border-style: solid;
   border-width: 1px;
   border-bottom: none;
@@ -65,7 +65,7 @@
   margin-bottom: 0;
   width: 75%;
   padding: 5px;
-  color: #999999;
+  color: #72767D;
   background-color: #36393F;
 }
 
@@ -83,7 +83,7 @@
   overflow: auto;
   display: block;
   height: 300px;
-  border-color: #cfcfcf;
+  border-color: #202225;
   border-style: solid;
   border-width: 1px;
 }
@@ -117,9 +117,9 @@
 }
 
 #workskin .dactionbar {
-  border-color: #cfcfcf;
-  background-color: #202225;
-  color: #999999;
+  border-color: #202225;
+  background-color: #2F3136;
+  color: #72767D;
   border-style: solid;
   border-width: 1px;
   border-top: none;
